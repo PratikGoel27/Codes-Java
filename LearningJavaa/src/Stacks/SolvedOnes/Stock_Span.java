@@ -1,4 +1,4 @@
-package Stacks;
+package Stacks.SolvedOnes;
 import java.util.*;
 public class Stock_Span {
     public static void StockSpan(int[] Stock, int[] span) {

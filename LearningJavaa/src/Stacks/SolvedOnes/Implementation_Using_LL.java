@@ -1,4 +1,4 @@
-package Stacks;
+package Stacks.SolvedOnes;
 
 public class Implementation_Using_LL {
     static class Node {

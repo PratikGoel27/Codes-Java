@@ -1,5 +1,7 @@
-package Stacks;
+package Stacks.SolvedOnes;
+
 import java.util.*;
+
 public class Next_Greatest_Element {
     public static int[] NextGreatest(int[] arr, int[] narr) {
         // int j = 0;
@@ -59,6 +61,5 @@ public class Next_Greatest_Element {
         int[] narr = new int[arr.length];
         NextGreatest(arr,narr);
         printArr(narr);
-
     }
 }

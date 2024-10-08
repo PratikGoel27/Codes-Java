@@ -1,4 +1,4 @@
-package Stacks;
+package Stacks.SolvedOnes;
 import java.util.Stack;
 
 public class Reverse_a_Stack {

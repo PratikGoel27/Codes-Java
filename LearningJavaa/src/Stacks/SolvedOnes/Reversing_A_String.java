@@ -1,4 +1,4 @@
-package Stacks;
+package Stacks.SolvedOnes;
 import java.util.*;
 public class Reversing_A_String {
     public static StringBuilder reverseString(String str) {

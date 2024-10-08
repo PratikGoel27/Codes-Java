@@ -1,5 +1,7 @@
-package Stacks;
-import java.util.*;;
+package Stacks.SolvedOnes;
+
+import java.util.*;
+
 public class DuplicateParentheses {
     public static boolean isDup(String str) {
         Stack<Character> s = new Stack<>();
