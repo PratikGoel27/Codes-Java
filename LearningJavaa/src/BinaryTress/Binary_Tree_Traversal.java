@@ -17,6 +17,7 @@ public class Binary_Tree_Traversal {
     }
 
     static class BinaryTree {
+
         static int idx = -1;
         public static Node buildTree(int[] nodes) {
             idx++;
@@ -47,6 +48,15 @@ public class Binary_Tree_Traversal {
             inorder(root.left);
             System.out.print(root.data+" ");
             inorder(root.right);
+        }
+
+        public static void postorder(Node root) {
+            if(root == null) {
+                return;
+            }
+            postorder(root.left);
+            postorder(root.right);
+            System.out.println(root.data+" ");
         }
 
         public static void levelorder(Node root) {
